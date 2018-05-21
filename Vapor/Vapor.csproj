@@ -263,6 +263,10 @@
     <Compile Include="Migrations\201805211846010_ChangedGameModel.Designer.cs">
       <DependentUpon>201805211846010_ChangedGameModel.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201805212042317_customermembershiptypes.cs" />
+    <Compile Include="Migrations\201805212042317_customermembershiptypes.Designer.cs">
+      <DependentUpon>201805212042317_customermembershiptypes.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Customer.cs" />
@@ -273,6 +277,7 @@
     <Compile Include="Models\MembershipType.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Startup.cs" />
+    <Compile Include="ViewModels\NewCustomerViewModel.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\bootstrap-darkly.css" />
@@ -339,6 +344,7 @@
     <Content Include="Views\Customers\Index.cshtml" />
     <Content Include="Views\Games\Details.cshtml" />
     <Content Include="Views\Games\Index.cshtml" />
+    <Content Include="Views\Customers\CustomerForm.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -401,6 +407,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201805211846010_ChangedGameModel.resx">
       <DependentUpon>201805211846010_ChangedGameModel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201805212042317_customermembershiptypes.resx">
+      <DependentUpon>201805212042317_customermembershiptypes.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

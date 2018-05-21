@@ -136,3 +136,4 @@ C:\Users\Arvin\Documents\Visual Studio 2017\Projects\Vapor\Vapor\obj\Debug\Vapor
 C:\Users\Arvin\Documents\Visual Studio 2017\Projects\Vapor\Vapor\obj\Debug\Vapor.Migrations.GenreData.resources
 C:\Users\Arvin\Documents\Visual Studio 2017\Projects\Vapor\Vapor\obj\Debug\Vapor.Migrations.PopulateGameGenre.resources
 C:\Users\Arvin\Documents\Visual Studio 2017\Projects\Vapor\Vapor\obj\Debug\Vapor.Migrations.ChangedGameModel.resources
+C:\Users\Arvin\Documents\Visual Studio 2017\Projects\Vapor\Vapor\obj\Debug\Vapor.Migrations.customermembershiptypes.resources
