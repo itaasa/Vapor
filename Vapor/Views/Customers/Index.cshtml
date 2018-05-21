@@ -1,0 +1,27 @@
+﻿@model List<Vapor.Models.Customer>
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Customers</h2>
+
+@if (Model.Count == 0)
+{
+    <h4>There are no customers.</h4>
+}
+
+else
+{
+    <table class="table table-bordered table-hover">
+        <tr>
+            <th>Customer</th>
+        </tr>
+        @foreach (var customer in Model)
+        {
+            <tr>
+                <td><a href="Customers/Details/@customer.Id">@customer.Name</a></td>
+            </tr>
+        }
+    </table>
+}
+

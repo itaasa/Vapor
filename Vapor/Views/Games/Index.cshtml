@@ -1,0 +1,27 @@
+﻿@model List<Vapor.Models.Game>
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Games</h2>
+
+@if (Model.Count == 0)
+{
+    <h4>There are no games available yet.</h4>
+}
+
+else
+{
+    <table class="table table-bordered table-hover">
+        <tr>
+            <th>Game</th>
+        </tr>
+        @foreach (var game in Model)
+        {
+            <tr>
+                <td><a href="Games/Details/@game.Id">@game.Name</a></td>
+            </tr>
+        }
+    </table>
+}
+
