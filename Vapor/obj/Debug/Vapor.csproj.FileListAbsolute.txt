@@ -126,3 +126,6 @@ C:\Users\Arvin\Documents\Visual Studio 2017\Projects\Vapor\Vapor\obj\Debug\Vapor
 C:\Users\Arvin\Documents\Visual Studio 2017\Projects\Vapor\Vapor\obj\Debug\Vapor.Migrations.AddMembershipType.resources
 C:\Users\Arvin\Documents\Visual Studio 2017\Projects\Vapor\Vapor\obj\Debug\Vapor.Migrations.PopulateMembershipTypes.resources
 C:\Users\Arvin\Documents\Visual Studio 2017\Projects\Vapor\Vapor\obj\Debug\Vapor.Migrations.ApplyAnnotationsToCustomerName.resources
+C:\Users\Arvin\Documents\Visual Studio 2017\Projects\Vapor\Vapor\obj\Debug\Vapor.Migrations.MembershipTypeName.resources
+C:\Users\Arvin\Documents\Visual Studio 2017\Projects\Vapor\Vapor\obj\Debug\Vapor.Migrations.MembershipTypeName1.resources
+C:\Users\Arvin\Documents\Visual Studio 2017\Projects\Vapor\Vapor\obj\Debug\Vapor.Migrations.MembershipTypeNames.resources
