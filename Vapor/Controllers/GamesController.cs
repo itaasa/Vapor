@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Data.Entity;
 using System.Web;
 using System.Web.Mvc;
 using Vapor.Models;
@@ -9,18 +10,29 @@ namespace Vapor.Controllers
 {
     public class GamesController : Controller
     {
+        private ApplicationDbContext _context;
+
+        public GamesController()
+        {
+            _context = new ApplicationDbContext();
+        }
+
+        protected override void Dispose(bool disposing)
+        {
+            _context.Dispose();
+        }
+
         public ActionResult Index()
         {
 
-            var games = GetGames();
+            var games = _context.Games.ToList();
             return View(games);
 
         }
 
-        [Route("Games/Details/{id}")]
         public ActionResult Details(int id)
         {
-            var games = GetGames();
+            var games = _context.Games.Include(c => c.Genre).ToList();
             foreach (var game in games)
             {
                 if (game.Id == id)
@@ -28,28 +40,6 @@ namespace Vapor.Controllers
             }
 
             return HttpNotFound();
-        }
-
-        private List<Game> GetGames()
-        {
-            return new List<Game>
-            {
-                new Game
-                {
-                    Id = 1,
-                    Name = "Escape From Tarkov"
-                },
-                new Game
-                {
-                    Id = 2,
-                    Name = "Eve Online"
-                },
-                new Game
-                {
-                    Id = 3,
-                    Name = "Dota 2"
-                }
-            };
         }
     }
 }

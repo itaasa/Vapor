@@ -32,12 +32,15 @@ namespace Vapor.Controllers
 
         public ActionResult Details(int id)
         {
-            var customer = _context.Customers.SingleOrDefault(c => c.Id == id);
+            var customers = _context.Customers.Include(c => c.MembershipType).ToList();
 
-            if (customer == null)
-                return HttpNotFound();
+            foreach (var customer in customers)
+            {
+                if (customer.Id == id)
+                    return View(customer);
+            }
 
-            return View(customer);
+            return HttpNotFound();
         }
     }
 }

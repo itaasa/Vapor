@@ -235,10 +235,39 @@
     <Compile Include="Migrations\201805210217182_MembershipTypeNames.Designer.cs">
       <DependentUpon>201805210217182_MembershipTypeNames.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201805210340199_CustomerDates.cs" />
+    <Compile Include="Migrations\201805210340199_CustomerDates.Designer.cs">
+      <DependentUpon>201805210340199_CustomerDates.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201805210341577_CustomerDateData.cs" />
+    <Compile Include="Migrations\201805210341577_CustomerDateData.Designer.cs">
+      <DependentUpon>201805210341577_CustomerDateData.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201805210346460_InsertCustomerBirthData.cs" />
+    <Compile Include="Migrations\201805210346460_InsertCustomerBirthData.Designer.cs">
+      <DependentUpon>201805210346460_InsertCustomerBirthData.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201805211828117_GamesGenre.cs" />
+    <Compile Include="Migrations\201805211828117_GamesGenre.Designer.cs">
+      <DependentUpon>201805211828117_GamesGenre.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201805211831145_GenreData.cs" />
+    <Compile Include="Migrations\201805211831145_GenreData.Designer.cs">
+      <DependentUpon>201805211831145_GenreData.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201805211832404_PopulateGameGenre.cs" />
+    <Compile Include="Migrations\201805211832404_PopulateGameGenre.Designer.cs">
+      <DependentUpon>201805211832404_PopulateGameGenre.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201805211846010_ChangedGameModel.cs" />
+    <Compile Include="Migrations\201805211846010_ChangedGameModel.Designer.cs">
+      <DependentUpon>201805211846010_ChangedGameModel.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Customer.cs" />
     <Compile Include="Models\Game.cs" />
+    <Compile Include="Models\GameGenre.cs" />
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
     <Compile Include="Models\MembershipType.cs" />
@@ -351,6 +380,27 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201805210217182_MembershipTypeNames.resx">
       <DependentUpon>201805210217182_MembershipTypeNames.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201805210340199_CustomerDates.resx">
+      <DependentUpon>201805210340199_CustomerDates.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201805210341577_CustomerDateData.resx">
+      <DependentUpon>201805210341577_CustomerDateData.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201805210346460_InsertCustomerBirthData.resx">
+      <DependentUpon>201805210346460_InsertCustomerBirthData.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201805211828117_GamesGenre.resx">
+      <DependentUpon>201805211828117_GamesGenre.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201805211831145_GenreData.resx">
+      <DependentUpon>201805211831145_GenreData.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201805211832404_PopulateGameGenre.resx">
+      <DependentUpon>201805211832404_PopulateGameGenre.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201805211846010_ChangedGameModel.resx">
+      <DependentUpon>201805211846010_ChangedGameModel.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

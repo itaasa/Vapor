@@ -129,3 +129,10 @@ C:\Users\Arvin\Documents\Visual Studio 2017\Projects\Vapor\Vapor\obj\Debug\Vapor
 C:\Users\Arvin\Documents\Visual Studio 2017\Projects\Vapor\Vapor\obj\Debug\Vapor.Migrations.MembershipTypeName.resources
 C:\Users\Arvin\Documents\Visual Studio 2017\Projects\Vapor\Vapor\obj\Debug\Vapor.Migrations.MembershipTypeName1.resources
 C:\Users\Arvin\Documents\Visual Studio 2017\Projects\Vapor\Vapor\obj\Debug\Vapor.Migrations.MembershipTypeNames.resources
+C:\Users\Arvin\Documents\Visual Studio 2017\Projects\Vapor\Vapor\obj\Debug\Vapor.Migrations.CustomerDates.resources
+C:\Users\Arvin\Documents\Visual Studio 2017\Projects\Vapor\Vapor\obj\Debug\Vapor.Migrations.CustomerDateData.resources
+C:\Users\Arvin\Documents\Visual Studio 2017\Projects\Vapor\Vapor\obj\Debug\Vapor.Migrations.InsertCustomerBirthData.resources
+C:\Users\Arvin\Documents\Visual Studio 2017\Projects\Vapor\Vapor\obj\Debug\Vapor.Migrations.GamesGenre.resources
+C:\Users\Arvin\Documents\Visual Studio 2017\Projects\Vapor\Vapor\obj\Debug\Vapor.Migrations.GenreData.resources
+C:\Users\Arvin\Documents\Visual Studio 2017\Projects\Vapor\Vapor\obj\Debug\Vapor.Migrations.PopulateGameGenre.resources
+C:\Users\Arvin\Documents\Visual Studio 2017\Projects\Vapor\Vapor\obj\Debug\Vapor.Migrations.ChangedGameModel.resources

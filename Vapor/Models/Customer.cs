@@ -13,6 +13,7 @@ namespace Vapor.Models
         [Required]
         [StringLength(255)]
         public string Name { get; set; }
+        public string BirthDate { get; set; }
         public bool IsSubscribedToNewletter { get; set; }
 
         //Navigation Property
