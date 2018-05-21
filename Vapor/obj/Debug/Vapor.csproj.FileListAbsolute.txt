@@ -122,3 +122,7 @@ C:\Users\Arvin\Documents\Visual Studio 2017\Projects\Vapor\Vapor\obj\Debug\Vapor
 C:\Users\Arvin\Documents\Visual Studio 2017\Projects\Vapor\Vapor\obj\Debug\Vapor.pdb
 C:\Users\Arvin\Documents\Visual Studio 2017\Projects\Vapor\Vapor\obj\Debug\Vapor.Migrations.InitialModel.resources
 C:\Users\Arvin\Documents\Visual Studio 2017\Projects\Vapor\Vapor\obj\Debug\Vapor.csproj.GenerateResource.cache
+C:\Users\Arvin\Documents\Visual Studio 2017\Projects\Vapor\Vapor\obj\Debug\Vapor.Migrations.AddIsSubscribedToCustomer.resources
+C:\Users\Arvin\Documents\Visual Studio 2017\Projects\Vapor\Vapor\obj\Debug\Vapor.Migrations.AddMembershipType.resources
+C:\Users\Arvin\Documents\Visual Studio 2017\Projects\Vapor\Vapor\obj\Debug\Vapor.Migrations.PopulateMembershipTypes.resources
+C:\Users\Arvin\Documents\Visual Studio 2017\Projects\Vapor\Vapor\obj\Debug\Vapor.Migrations.ApplyAnnotationsToCustomerName.resources
